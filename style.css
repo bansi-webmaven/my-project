@@ -1,0 +1,32 @@
+.about-image:after {
+    content: "";
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-right: 40px;
+    box-shadow: 2px -1px rgba(0,0,0,0.3);
+    background-size: 100%;
+    min-width: 117px;
+    min-height: 117px;
+    display: inline-block;
+    position: absolute;
+}
+.about-image:before {
+    content: "";
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-right: 40px;
+    box-shadow: -2px 1px rgba(0,0,0,0.3);
+    background-size: 100%;
+    min-width: 117px;
+    min-height: 117px;
+    display: inline-block;
+    position: absolute;
+}
+.about-image {
+    border-radius: 100%;
+    margin-right: 40px;
+    background-size: 100%;
+    position: relative;
+}
