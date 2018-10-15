@@ -1,0 +1,71 @@
+<html>
+<head>
+	<style type="text/css">
+		.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type=radio]:checked + label>img {
+  border: 1px solid #000;
+}
+.mian{height: 100px;width: 100px;border-radius: 100%;}
+.features_icon {
+    box-shadow: 0px 0px 0px 5px #559d44;
+    border: 8px solid #fff !important;
+    display: inline-block;
+    border-radius: 100%;
+    background: #559d44;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+/* Stuff after this is only to make things more pretty */
+input[type=radio] + label>img {
+  border: 1px dashed #444;
+  width: 150px;
+  height: 150px;
+  transition: 500ms all;
+  border:1px solid #ddd;
+  padding:10px;
+  margin: 0px 10px;
+}
+.features_icon:hover {
+     border: 8px solid #559d44 !important; 
+}
+	</style>
+</head>
+	<body>
+    <div class="demo1">
+		<input 
+  type="radio" name="emotion" 
+  id="sad" class="input-hidden" />
+<label for="sad">
+  <img 
+    src="https://d1vu1fvtmeoyvy.cloudfront.net/SV-PROD469/350/SV-PROD469-2.jpg" 
+    alt="I'm sad" />
+    <span>bansi patel</span>
+</label>
+
+<input 
+  type="radio" name="emotion"
+  id="happy" class="input-hidden" />
+<label for="happy">
+  <img 
+    src="http://d1vu1fvtmeoyvy.cloudfront.net/regalien--the-contemporary-blue-indoor-rug/350/regalien_-_the_contemporary_blue_indoor_rug-2.jpg" 
+    alt="I'm happy" />
+     <span>bansi patel</span>
+</label>
+</div>
+<div class="demo2">
+    <div class="ce_text features_icon block">
+      <img class="mian"
+    src="http://d1vu1fvtmeoyvy.cloudfront.net/regalien--the-contemporary-blue-indoor-rug/350/regalien_-_the_contemporary_blue_indoor_rug-2.jpg" 
+    alt="I'm happy" /> 
+    </div>
+</div>
+	</body>
+</html>
